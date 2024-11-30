@@ -1,0 +1,72 @@
+# Xcode
+.DS_Store
+*.swp
+*.xcuserdata
+*.xccheckout
+*.xcscmblueprint
+*.xcuserstate
+
+# Build artifacts
+build/
+DerivedData/
+*.ipa
+*.app
+*.dSYM
+*.xcarchive
+*.o
+*.hmap
+*.ipa
+
+# Swift Package Manager
+Packages/
+Package.pins
+Package.resolved
+.build/
+
+# Cocoapods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+.carthage/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+
+# Flutter
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.dart_tool/
+.flutter/
+.pub-cache/
+pubspec.lock
+
+# SPM Xcode project file
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcshareddata/xcschemes/*.xcscheme
+
+# General files
+*.log
+*.plist
+*.gz
+*.md
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swm
+
+# Other
+.env
+*.orig
+.idea/
+.vscode/
+*.DS_Store
+Thumbs.db
